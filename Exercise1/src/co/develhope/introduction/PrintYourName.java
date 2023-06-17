@@ -7,6 +7,5 @@ public class PrintYourName {
         System.out.println("Enter your name");
         String yourName = myName.nextLine();
         System.out.println("Your name is "+ yourName);
-        System.out.printf("Hello develhope java student June 15");
     }
 }
