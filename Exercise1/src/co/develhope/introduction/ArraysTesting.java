@@ -1,8 +1,5 @@
 package co.develhope.introduction;
 
-import java.sql.Array;
-import java.util.ArrayList;
-
 public class ArraysTesting {
     public static void main(String[] args) {
         String[] carBrands = {"Porsche", "Tesla", "Subaru", "BMW", "Lexus"};
