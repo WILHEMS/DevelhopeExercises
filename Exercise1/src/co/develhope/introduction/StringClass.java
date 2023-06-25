@@ -12,5 +12,6 @@ public class StringClass {
 
         String[] charArray = {string1Cut+string2Cut};
         System.out.println(charArray[0]);
+        //System.out.println(Arrays.toString(charArray));
     }
 }

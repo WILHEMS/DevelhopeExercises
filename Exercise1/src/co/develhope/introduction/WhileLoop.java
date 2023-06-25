@@ -1,6 +1,7 @@
 package co.develhope.introduction;
 
 public class WhileLoop {
+    public static Integer botBalance = 10000;
     //This class demonstrates the working of a trading bot
     public static void main(String[] args) {
         Integer botBalance = 10000;
