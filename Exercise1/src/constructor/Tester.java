@@ -1,6 +1,7 @@
 package constructor;
 
 public class Tester {
+
     public static void main(String[] args) {
         House house1;
         House house2;
