@@ -14,3 +14,12 @@ values("Yoghurt","No","Yes","Yes","Yes");
 /*To select column name of all ingredients*/
 
 select ingredient from ingredients;
+
+/*To select ingredients and price*/
+select ingredient, price from ingredients;
+
+/*Select all the columns ordered by name*/
+select * from ingredients order by ingredient;
+
+/*select all columns and order by gluten free with true at the top*/
+select * from ingredients order by gluten_free desc ;
