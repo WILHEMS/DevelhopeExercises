@@ -5,7 +5,7 @@ import java.io.IOException;
 public class HandlingExceptions {
     public static void main(String[] args){
         try {
-            checkScore(101.00);
+            checkScore(50.00);
         }catch (ArithmeticException arithmeticException){
             arithmeticException.printStackTrace();
         }
