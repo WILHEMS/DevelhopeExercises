@@ -6,11 +6,11 @@ public class HandlingExceptions {
     public static void main(String[] args){
         try {
             checkScore(101.00);
-        }catch (IOException ioException){
-            ioException.printStackTrace();
+        }catch (ArithmeticException arithmeticException){
+            arithmeticException.printStackTrace();
         }
     }
-    public static void checkScore(Double score) throws IOException{
+    public static void checkScore(Double score) throws ArithmeticException{
         if(score > 0 && score <= 50.00){
             System.out.println("Average Score");
         }
@@ -18,7 +18,7 @@ public class HandlingExceptions {
             System.out.println("Very good Score");
         }
         else {
-            throw new IOException("Score is out of scale");
+            throw new ArithmeticException("Score is out of scale");
         }
     }
 }
