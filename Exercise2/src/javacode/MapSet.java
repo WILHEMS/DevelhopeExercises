@@ -23,6 +23,8 @@ public class MapSet {
 
         List<Integer> cardinalMonth = new ArrayList<Integer>(months.values());
 
+        System.out.println("The list is :"+ cardinalMonth);
+
         Integer[] cardinalMonthArray = months.values().toArray(new Integer[0]);
 
         System.out.println("The array is : "+ Arrays.toString(cardinalMonthArray));
