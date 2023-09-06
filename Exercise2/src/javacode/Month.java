@@ -5,14 +5,13 @@ public enum Month {
 
     public static void main(String[] args) {
         for (int i = 0; i < Month.values().length; i++) {
-            //System.out.println(Month.values()[i]);
             if(Month.values()[i].toString().endsWith("Y")){
                 System.out.println(Month.values()[i]);
                 System.out.println("Ends with Y");
             }
             else {
                 System.out.println(Month.values()[i]);
-                System.out.println("Doesnt end with Y");
+                System.out.println("Doesn't end with Y");
             }
         }
 

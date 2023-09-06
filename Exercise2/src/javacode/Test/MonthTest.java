@@ -1,4 +1,6 @@
-package javacode;
+package javacode.Test;
+
+import javacode.Month;
 
 import java.util.Arrays;
 
