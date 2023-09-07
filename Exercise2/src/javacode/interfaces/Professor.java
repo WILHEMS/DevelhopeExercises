@@ -14,4 +14,5 @@ public class Professor extends CollegePerson implements TeachingPerson{
     public void teachToOtherPeople() {
         System.out.println("Teaches other people");
     }
+
 }
