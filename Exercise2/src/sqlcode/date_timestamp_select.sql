@@ -29,4 +29,4 @@ select date_sub(now(), interval 2 year );
 select format(meal_price, 2) from meals;
 
 /* Using DATE_ADD or DATE_SUB and the following SQL; SELECT NOW();, Select your birthday by passing the result into the next item*/
-select date_sub((date_add(now(), interval 16 day)), interval 13 hour );
+select date_sub((date_add(now(), interval 20 day)), interval 12 hour );
