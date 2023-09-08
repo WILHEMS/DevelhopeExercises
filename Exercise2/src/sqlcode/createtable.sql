@@ -4,6 +4,6 @@ contains_lactose boolean,
 vegetarian boolean,
 vegan boolean,
 gluten_free boolean,
-calories,
+calories int,
 primary key (ingredient)
 );
