@@ -1,5 +1,5 @@
 /*Create table for cheap meals*/
-create table CHEAP_MEALS as
+create table CHEAP_MEALS AS
 select * from meals where price<15;
 
 /* create table from clone */
